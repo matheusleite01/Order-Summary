@@ -23,3 +23,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 - Frontend Mentor - [@matheusleite01](https://www.frontendmentor.io/profile/matheusleite01)
 - Twitter - [@Theuz_o_](https://twitter.com/Theuz_o_)
+
+## Live site URL 
+
+- [Order summary card](https://matheusleite01.github.io/Order-Summary/web/)
