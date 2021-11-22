@@ -1,36 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-body{
-  font-family: 'Red Hat Display', sans-serif;
-  background: url("/images/pattern-background-desktop.svg") repeat-x ;
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: url("../images/pattern-background-desktop.svg") repeat-x;
   background-color: var(--Primary-Pale-blue);
 }
 
-p,span,a,button{
+p,
+span,
+a,
+button {
   font-size: 1rem;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
   outline: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-:root{
+:root {
   --Primary-Pale-blue: hsla(225, 100%, 94%);
   --Primary-Pale-blue-hover: rgba(224, 232, 255, 0.397);
   --Primary-Bright-blue: hsl(245, 75%, 52%);
@@ -39,13 +41,12 @@ img{
   --Neutral-Desaturated-blue: hsl(224, 23%, 55%);
   --Neutral-Dark-blue: hsl(223, 47%, 23%);
 
-  --900-Weights:900;
-  --700-Weights:700;
-  --500-Weights:500;
+  --900-Weights: 900;
+  --700-Weights: 700;
+  --500-Weights: 500;
 }
 
-
-.card__background{
+.card__background {
   max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
@@ -54,35 +55,35 @@ img{
   align-items: center;
 }
 
-.card{
+.card {
   max-width: 400px;
   border-radius: 20px;
   margin: 0px 10px;
   background: var(--Neutral-Very-pale-blue);
 }
 
-.card img{
+.card img {
   border-radius: 20px 20px 0px 0px;
 }
 
-.card__content{
+.card__content {
   padding: 30px;
   text-align: center;
 }
 
-.card__content h2{
+.card__content h2 {
   margin-bottom: 15px;
   color: var(--Neutral-Dark-blue);
 }
 
-.card__content p{
+.card__content p {
   max-width: 300px;
   margin: 20px auto;
   line-height: 25px;
   color: var(--Neutral-Desaturated-blue);
 }
 
-.card__AnnualPlan{
+.card__AnnualPlan {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -92,39 +93,39 @@ img{
   border-radius: 10px;
 }
 
-.card__icon{
+.card__icon {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.card__AnnualPlan a{
+.card__AnnualPlan a {
   color: var(--Primary-Bright-blue);
   border-bottom: 2px solid var(--Primary-Bright-blue);
   line-height: 13px;
   font-weight: var(--700-Weights);
 }
 
-.card__AnnualPlan a:hover{
+.card__AnnualPlan a:hover {
   color: var(--Primary-Bright-blue-hover);
   border: none;
 }
 
-.card__span span{
+.card__span span {
   display: block;
   margin-bottom: 5px;
 }
 
-.card__span span:first-child{
+.card__span span:first-child {
   color: var(--Neutral-Dark-blue);
   font-weight: var(--900-Weights);
 }
 
-.card__span span:last-child{
+.card__span span:last-child {
   color: var(--Neutral-Desaturated-blue);
 }
 
-.card__button button{
+.card__button button {
   display: block;
   margin: 30px auto;
   width: 100%;
@@ -133,31 +134,37 @@ img{
   font-weight: var(--700-Weights);
   background: var(--Primary-Bright-blue);
   border-radius: 10px;
-  box-shadow: 0px 10px 15px 0px var(--Primary-Bright-blue-hover); 
-  transition: .2s;
+  box-shadow: 0px 10px 15px 0px var(--Primary-Bright-blue-hover);
+  transition: 0.2s;
 }
 
-.card__button button:hover{
+.card__button button:hover {
   background: var(--Primary-Bright-blue-hover);
 }
 
-.card__button a{
+.card__button a {
   color: var(--Neutral-Desaturated-blue);
   font-weight: var(--700-Weights);
   transition: 0.2s;
 }
 
-.card__button a:hover{
+.card__button a:hover {
   color: var(--Neutral-Dark-blue);
 }
 
-.attribution { position: absolute; bottom: 0; font-size: 11px; text-align: center;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-@media screen and (max-width:375px){
-  body{
-    background: url("/images/pattern-background-mobile.svg") repeat-x cover; 
+@media screen and (max-width: 375px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg") repeat-x cover;
     background-color: var(--Primary-Pale-blue);
   }
 }
-
