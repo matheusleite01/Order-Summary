@@ -102,14 +102,13 @@ img {
 
 .card__AnnualPlan a {
   color: var(--Primary-Bright-blue);
-  border-bottom: 2px solid var(--Primary-Bright-blue);
   line-height: 13px;
-  font-weight: var(--700-Weights);
+  text-decoration: underline;
 }
 
 .card__AnnualPlan a:hover {
   color: var(--Primary-Bright-blue-hover);
-  border: none;
+  text-decoration: none;
 }
 
 .card__span span {
@@ -130,7 +129,7 @@ img {
   display: block;
   margin: 30px auto;
   width: 100%;
-  padding: 15px;
+  padding: 13px;
   color: var(--Neutral-Very-pale-blue);
   font-weight: var(--700-Weights);
   background: var(--Primary-Bright-blue);
